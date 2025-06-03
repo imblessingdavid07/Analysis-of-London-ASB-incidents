@@ -63,7 +63,7 @@ Python notebooks (`notebooks/`) walk through data cleaning, EDA, statistical tes
  ## Frequent ASB incidents
 
   <p align="center">
-  <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/ASB_Borough.png" alt="Monthly ASB incidents distribution" width="700" />
+  <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/Frequent_ASB_incidents.png" alt="Monthly ASB incidents distribution" width="700" />
  </p>
 
 ## Statistical Tests
