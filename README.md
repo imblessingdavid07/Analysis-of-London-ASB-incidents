@@ -1,7 +1,7 @@
 # ASB_London_Analysis
 
 > Antisocial Behaviour Analysis in London (01 Aug 2023 – 31 Aug 2024)  
-> Using Python (pandas, SciPy, Matplotlib, Seaborn) and Tableau dashboards.  
+> Using Python (pandas, SciPy, Matplotlib, Seaborn) in Google Colab environment.  
 
 ---
 
