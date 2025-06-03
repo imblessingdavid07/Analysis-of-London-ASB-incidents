@@ -72,6 +72,22 @@ Python notebooks (`notebooks/`) walk through data cleaning, EDA, statistical tes
   <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/Box_plot.png" alt="Monthly ASB incidents distribution" width="700" />
  </p>
 
+ ## Descriptive Statistics between Weekend incidents and Weekdays incidents
+
+    <p align="center">
+  <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/Descriptive_statistics.png" alt="Monthly ASB incidents distribution" width="400" />
+ </p>
+
+ ## Heat-Map on ASB incidents across weeks
+    <p align="center">
+  <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/Heat_Map.png" alt="Monthly ASB incidents distribution" width="700" />
+ </p>
+
+ ## Pivot Table for ASB incidents across week and days
+    <p align="center">
+  <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/Pivot_Table.png" alt="Monthly ASB incidents distribution" width="700" />
+ </p>
+
 ## Statistical Tests
 
 - **Welch’s t-Test (RQ1):** Weekend mean ≈ 729.52 vs. Weekday mean ≈ 678.13. t ≈ 4.07, p ≈ 3.5×10⁻⁵ → reject H₀.  
