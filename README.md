@@ -21,7 +21,7 @@ This project analyzes Antisocial Behaviour (ASB) incidents reported in London be
 
 - Identify hourly and daily patterns of ASB incidents (peak hours: 14:00–23:00).  
 - Compare weekday vs. weekend incident rates (Welch’s t-test: weekends are significantly higher).  
-- Determine boroughs with highest vs. lowest ASB counts and test association between borough & incident type (Chi-Square test: significant association).  
+- Determine boroughs with highest vs. lowest ASB counts and test association between borough & incident type (Chi-Square test: significant association between borough and incident type).  
 - Compare monthly ASB counts (One-Way ANOVA: at least one month differs), with Tukey’s HSD post-hoc.
 
 Python notebooks (`notebooks/`) walk through data cleaning, EDA, statistical tests, and plotting. Final dashboards in Tableau (`tableau/`) illustrate interactive summaries.
@@ -108,7 +108,8 @@ Python notebooks (`notebooks/`) walk through data cleaning, EDA, statistical tes
 - **Chi-Square (RQ2):** χ² ≈ 12,652.73, p ≈ 0 → reject H₀ (incident type distribution depends on borough).
    <p align="center">
   <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/Chi-square Test.png" alt="Monthly ASB incidents distribution" width="700" />
- </p>  
+ </p> 
+ 
 - **One-Way ANOVA (RQ3):** F ≈ 39.10, p ≈ 0 → reject H₀ (at least one month differs). Tukey’s HSD post-hoc identifies which pairs differ.
    <p align="center">
   <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/One-way_ANOVA.png" alt="Monthly ASB incidents distribution" width="700" />
