@@ -104,16 +104,25 @@ Python notebooks (`notebooks/`) walk through data cleaning, EDA, statistical tes
 
 ## Statistical Tests
 
-- **Welch’s t-Test (RQ1):** Weekend mean ≈ 729.52 vs. Weekday mean ≈ 678.13. t ≈ 4.07, p ≈ 3.5×10⁻⁵ → reject H₀.  
+- **Welch’s t-Test (RQ1):** Weekend mean ≈ 729.52 vs. Weekday mean ≈ 678.13. t ≈ 4.07, p ≈ 3.5×10⁻⁵ → reject H₀.
+
+   <p align="center">
+  <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/Welch's t-test.png" alt="Monthly ASB incidents distribution" width="700" />
+ </p>
+   
 - **Chi-Square (RQ2):** χ² ≈ 12,652.73, p ≈ 0 → reject H₀ (incident type distribution depends on borough).
    <p align="center">
   <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/Chi-square Test.png" alt="Monthly ASB incidents distribution" width="700" />
  </p> 
+
+ A contigency table is formulated for identifying specific ASB incident type in a respectve borough and the rslt is provided in 'contingency_table.xlsx'.
  
 - **One-Way ANOVA (RQ3):** F ≈ 39.10, p ≈ 0 → reject H₀ (at least one month differs). Tukey’s HSD post-hoc identifies which pairs differ.
    <p align="center">
   <img src="https://raw.githubusercontent.com/imblessingdavid07/Analysis-of-London-ASB-incidents/main/One-way_ANOVA.png" alt="Monthly ASB incidents distribution" width="700" />
  </p>
+
+ Tukey's HSD post-hoc test result is provided in 'tukey.xlsx'.
 
 ---
 
